@@ -25,6 +25,8 @@ body > header, body > section {
 
 body > header, body > section, body > footer {
 	width: 80%;
+	min-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding-right: 1em;
 	padding-left: 1em;
@@ -43,7 +45,6 @@ body > footer {
 	padding-bottom: 1em;
 }
 
-
 /* ============================== */
 /* ============================== */
 
@@ -59,14 +60,14 @@ body > header a {
 	display: block;
 }
 
-body > header nav ul {
+body > header > nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 
-body > header nav ul li {
+body > header > nav ul li {
 	display: inline-block;
 }
 
@@ -80,7 +81,7 @@ body > header > nav > ul {
 body > header > nav > ul > li:hover, body > header nav > ul > li.active {
 	background-color: #DDD0D3;
 	background-color: #EED1F6;
-	border-radius: .5em .5em 0 0;
+	border-radius: 1.5em 1.5em 0 0;
 }
 
 body > header > nav > ul > li > a {
@@ -88,8 +89,9 @@ body > header > nav > ul > li > a {
 	padding: .6em;
 }
 
-body > header > nav > ul > li:hover > a, body > header nav > ul > li.active > a {
+body > header > nav > ul li:hover > a, body > header nav > ul li.active > a {
 	color: #000;
+	font-style: oblique;
 }
 
 body > header > nav > ul > li > ul {
@@ -97,14 +99,10 @@ body > header > nav > ul > li > ul {
 	top: 3em;
 	left: 0;
 	right: 0;
-	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 35%,rgba(255,255,255,0) 100%);
-	background-color: #DDD0D3;
-	background-color: #EED1F6;
 	color: #000;
 	height: 0px;
 	overflow: hidden;
 	z-index: 1000;
-	border-radius: 0 0 1.5em 1.5em;
 }
 
 body > header > nav > ul > li:hover > ul {
@@ -116,14 +114,22 @@ body > header > nav > ul > li.active > ul {
 	z-index: 500;
 }
 
-body > header nav > ul > li > ul > li > a {
+body > header > nav > ul > li > ul > li > a {
 	color: #000;
 	padding: 1em;
 }
 
+body > header > nav > ul > li > ul > li {
+	background-color: #DDD0D3;
+	background-color: #EED1F6;
+}
 
-body > header nav > ul > li > ul > li > a:hover {
-	font-style: oblique;
+body > header > nav > ul > li > ul > li:first-child {
+	border-bottom-left-radius: 1.5em;
+}
+
+body > header > nav > ul > li > ul > li:last-child {
+	border-bottom-right-radius: 1.5em;
 }
 
 /* ============================== */
@@ -165,7 +171,6 @@ body > footer > small {
 	margin-top: .5em;
 	font-style: italic;
 }
-
 
 
 
