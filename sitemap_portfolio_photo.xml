@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<url>
+		<loc>http://ocicatmedia.com/portfolio/photo/</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+	</url>
+	<url>
+		<loc>http://ocicatmedia.com/portfolio/photo/MD5hash.html</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+		<image:image>
+			<image:title></image:title>
+			<image:loc>http://ocicatmedia.com/portfolio/photo/MD5hash.jpg</image:loc>
+			<image:caption>Caption Text</image:caption>
+			<image:geo_location>Cobourg, Ontario</image:geo_location>
+			<image:license>http://ocicatmedia.com/license/#image</image:license>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://ocicatmedia.com/portfolio/photo/MD5hash.html</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+		<image:image>
+			<image:title></image:title>
+			<image:loc>http://ocicatmedia.com/portfolio/photo/MD5hash.jpg</image:loc>
+			<image:caption>Caption Text</image:caption>
+			<image:geo_location>Cobourg, Ontario</image:geo_location>
+			<image:license>http://ocicatmedia.com/license/#image</image:license>
+		</image:image>
+	</url>
+</urlset>

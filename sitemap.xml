@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<url>
+		<loc>http://ocicatmedia.com/</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+
+	<url>
+		<loc>http://ocicatmedia.com/news/</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://ocicatmedia.com/portfolio/</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://ocicatmedia.com/about/</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+		<changefreq>yearly</changefreq>
+		<image:image>
+			<image:title>OciCat Media Logo</image:title>
+			<image:loc>http://ocicatmedia.com/asset/logobkg.jpg</image:loc>
+			<image:caption>Caption Text</image:caption>
+			<image:geo_location>Cobourg, Ontario</image:geo_location>
+			<image:license>http://ocicatmedia.com/license/#logo</image:license>
+		</image:image>
+		<image:image>
+			<image:title>Picture of OciCat Media founder Matthew Moore</image:title>
+			<image:loc>http://ocicatmedia.com/user/aurani/avatar.png</image:loc>
+			<image:caption>Caption Text</image:caption>
+			<image:geo_location>Cobourg, Ontario</image:geo_location>
+			<image:license>http://ocicatmedia.com/license/#image</image:license>
+		</image:image>
+		<image:image>
+			<image:title>Picture of an Ocicat</image:title>
+			<image:loc>http://ocicatmedia.com/asset/ocicat.jpg</image:loc>
+			<image:caption>Caption Text</image:caption>
+			<image:geo_location>Cobourg, Ontario</image:geo_location>
+			<image:license>http://ocicatmedia.com/license/#image</image:license>
+		</image:image>
+	</url>
+
+	<url>
+		<loc>http://ocicatmedia.com/contact/</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+		<changefreq>yearly</changefreq>
+	</url>
+
+	<url>
+		<loc>http://ocicatmedia.com/license/</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>http://ocicatmedia.com/policy/</loc>
+		<lastmod>2016-12-31T23:59:59Z</lastmod>
+		<changefreq>yearly</changefreq>
+	</url>
+
+</urlset>
